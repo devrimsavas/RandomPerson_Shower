@@ -1,0 +1,32 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.user-row:hover {
+  cursor:pointer;
+  transform:scale(1.01);
+}
+.user-row  .active {
+  font-weight: bold;
+  background-color: red !important;
+}
+
+.active {
+  background-color: red !important;
+  font-weight:bold;
+}
+
+.responsive-table {
+  overflow-y:auto;
+  height:800px;
+}
+
+#user-card {
+  
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
